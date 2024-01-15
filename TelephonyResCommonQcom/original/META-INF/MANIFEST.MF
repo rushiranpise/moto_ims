@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+
+Name: AndroidManifest.xml
+SHA-256-Digest: fDYaaMO3WNUU0W+hFxquyAS4dPu7Wdy8WMGRD/smOxE=
+
+Name: res/xml/telephony_injection.xml
+SHA-256-Digest: u3OBamLdO+3BEgaxJvBTklCUenfzivIaz5LmXPfJPhs=
+
+Name: resources.arsc
+SHA-256-Digest: bm5ZREAqGPUOvjcOha4JDky8ovjotIoDkOUBJUTLyGQ=
+

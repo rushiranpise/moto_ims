@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="5">
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="mms"/>
+            <item value="supl"/>
+            <item value="cbs"/>
+        </string-array>
+        <boolean name="moto_app_directed_sms_enabled" value="true"/>
+        <string-array name="moto_mt_sms_filter_list" num="4">
+            <item value="bynumber;900080002021;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher"/>
+            <item value="bynumber;900080006002;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher"/>
+            <item value="bynumber;900080006003;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher"/>
+            <item value="bynumber;900080006004;com.motorola.visualvoicemail;com.motorola.visualvoicemail.receivers.SMSCatcher"/>
+        </string-array>
+        <boolean name="force_imei_bool" value="true"/>
+        <boolean name="show_iccid_in_sim_status_bool" value="true"/>
+        <boolean name="editable_wfc_mode_bool" value="true"/>
+        <int-array name="cdma_enhanced_roaming_indicator_for_home_network_int_array" num="3">
+             <item value="64"/>
+             <item value="65"/>
+             <item value="66"/>
+        </int-array>
+        <boolean name="moto_vt_common_req_bool" value="true"/>
+        <boolean name="moto_vzw_vt_enabled_bool" value="true"/>
+        <boolean name="moto_vzw_wfc_enabled_bool" value="true"/>
+        <boolean name="moto_vzw_rtt_enabled_bool" value="true"/>
+        <boolean name="moto_vzw_vice_enabled_bool" value="true"/>
+        <boolean name="moto_common_rtt_enabled_bool" value="true"/>
+        <boolean name="moto_vzw_auto_answer" value="true"/>
+        <boolean name="moto_vzw_calling_in_ap_mode" value="true"/>
+        <boolean name="moto_vzw_eri_banner" value="true"/>
+        <boolean name="moto_vzw_call_end_tone_and_call_end_toast" value="true"/>
+        <boolean name="moto_vzw_volte_specific_req" value="true"/>
+        <boolean name="moto_vzw_assisted_dialing" value="true"/>
+        <boolean name="moto_vzw_gsm_assisted_dialing" value="true"/>
+        <boolean name="moto_auto_retry_enabled" value="true"/>
+        <boolean name="moto_vzw_lte_on_cdma_world_phone" value="true"/>
+        <boolean name="moto_vzw_lte_on_gsm_world_phone" value="true"/>
+        <boolean name="moto_vzw_gsm_cdma_world_phone" value="false"/>
+        <boolean name="moto_vzw_remove_cdma_only" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1" />
+        <boolean name="editable_wfc_roaming_mode_bool" value="true" />
+        <boolean name="moto_lppe_available_bool" value="true"/>
+        <boolean name="gps.persist_lpp_mode_bool" value="false"/>
+        <string name="gps.supl_mode">0</string>
+        <string name="gps.supl_host">NONE</string>
+        <string name="gps.supl_ver">0x20002</string>
+        <string name="gps.lpp_profile">7</string>
+        <string name="gps.es_extension_sec">300</string>
+    </carrier_config>
+    <carrier_config carrierid="vzw">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    </carrier_config>
+    <carrier_config carrierid="vzwpre">
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

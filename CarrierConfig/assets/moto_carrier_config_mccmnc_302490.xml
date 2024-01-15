@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+        <boolean name="hide_ims_apn_bool" value="true"/>
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported" value="true" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <string name="wfc_emergency_address_carrier_app_string">https://vowifi.authenticateme.ca</string>
+        <string-array name="carrier_metered_iwlan_apn_types_strings" num="4">
+            <item value="cbs"/>
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="supl"/>
+        </string-array>
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+        <int name="emc_turn_radio_retry_limit_int_sim" value="1"/>
+        <boolean name="use_vowifi_call_after_call_fail_sim" value="true" />
+        <int name="emc_connection_limit_int_sim" value="10000" />
+    </carrier_config>
+</carrier_config_list>

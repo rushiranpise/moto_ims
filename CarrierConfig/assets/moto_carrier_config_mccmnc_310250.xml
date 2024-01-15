@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <boolean name="editable_voicemail_number_setting_bool" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="true"/>
+        <boolean name="enableMMSDeliveryReports" value="true"/>
+        <boolean name="enableMMSReadReports" value="true"/>
+        <boolean name="enableWapPushSI" value="true"/>
+        <int name="recipientLimit" value="20"/>
+        <int name="smsToMmsTextThreshold" value="12"/>
+        <boolean name="carrier_default_wfc_ims_enabled_bool" value="true"/>
+        <boolean name="editable_wfc_roaming_mode_bool" value="true"/>
+        <boolean name="moto_lppe_available_bool" value="true"/>
+        <string name="gps.supl_mode">1</string>
+        <string name="gps.supl_host">supl.geo.t-mobile.com</string>
+        <string name="gps.supl_ver">0x20000</string>
+        <string name="gps.lpp_profile">6</string>
+        <string name="gps.es_extension_sec">0</string>
+        <boolean name="hide_ims_apn_bool" value="true"/>
+        <boolean name="carrier_rtt_supported" value="true"/>
+        <boolean name="carrier_rtt_auto_upgrade" value="false"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="true"/>
+        <boolean name="rtt_always_enabled_bool" value="true"/>
+        <long name="message_expiration_time_long" value="86400000"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="supl"/>
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="4">
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="supl"/>
+            <item value="mms"/>
+        </string-array>
+        <string name="config_ims_package_override_string"></string>
+        <boolean name="gsm_cdma_calls_can_be_hd_audio" value="true"/>
+        <boolean name="moto_wfc_tmo_specific_req_bool" value="true"/>
+        <boolean name="moto_vt_common_req_bool" value="true"/>
+        <boolean name="moto_vt_tmo_specific_req_bool" value="true"/>
+        <boolean name="moto_tmo_rtt_enabled_bool" value="true"/>
+        <boolean name="moto_usage_timer_tmo_req_bool" value="true"/>
+        <boolean name="moto_auto_config_ir94videoauth_supported_bool" value="true"/>
+        <boolean name="moto_uce_video_feature_enabled_bool" value="true"/>
+        <boolean name="moto_uce_messaging_feature_enabled_bool" value="true"/>
+        <boolean name="moto_tmo_stir_shaken_feature_bool" value="true"/>
+        <int name="moto_signal_strength_max_level_int" value="5"/>
+        <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true"/>
+        <int-array name="gsm_rssi_thresholds_int_array" num="5">
+            <item value="-113"/>
+            <item value="-103"/>
+            <item value="-97"/>
+            <item value="-93"/>
+            <item value="-85"/>
+        </int-array>
+        <int-array name="moto_wcdma_rssi_thresholds_int_array" num="5">
+            <item value="-113"/>
+            <item value="-111"/>
+            <item value="-101"/>
+            <item value="-95"/>
+            <item value="-87"/>
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="5">
+            <item value="-999"/>
+            <item value="-119"/>
+            <item value="-114"/>
+            <item value="-109"/>
+            <item value="-99"/>
+        </int-array>
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="carrier_volte_tty_supported_bool" value="false" />
+        <boolean name="drop_hold_call_for_emc_sim" value="false"/>
+        <int name="emc_connection_limit_int_sim" value="50000" />
+    </carrier_config>
+    <carrier_config carrierid="metropcs">
+        <boolean name="show_iccid_in_sim_status_bool" value="true"/>
+        <boolean name="support_video_conference_call_bool" value="true"/>
+    </carrier_config>
+    <carrier_config carrierid="tmo">
+        <boolean name="show_iccid_in_sim_status_bool" value="true"/>
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    </carrier_config>
+    <carrier_config gid1="2ac9">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+        <boolean name="moto_wfc_tmo_specific_req_bool" value="false"/>
+    </carrier_config>
+    <carrier_config gid1="37ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="38ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="39ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="4102">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="4201">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="44ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="49ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="4d4b">
+        <boolean name="carrier_vt_available_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+        <boolean name="moto_wfc_tmo_specific_req_bool" value="false"/>
+        <boolean name="enable_omacp_ui_bool" value="false" />
+        <int-array name="omacp_auth_types_array" num="1">
+            <item value="0" />
+        </int-array>
+    </carrier_config>
+    <carrier_config gid1="4d4b" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="50ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="534d">
+        <boolean name="carrier_vt_available_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+        <boolean name="moto_wfc_tmo_specific_req_bool" value="false"/>
+        <boolean name="enable_omacp_ui_bool" value="false" />
+        <int-array name="omacp_auth_types_array" num="1">
+            <item value="0" />
+        </int-array>
+    </carrier_config>
+    <carrier_config gid1="534d" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="60ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="6134">
+        <boolean name="carrier_vt_available_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="allowEnablingWapPushSI" value="false"/>
+        <boolean name="enableWapPushSI" value="false"/>
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="support_manage_ims_conference_call_bool" value="false"/>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+        <boolean name="rtt_supported_bool" value="false"/>
+        <boolean name="carrier_rtt_supported" value="false"/>
+    </carrier_config>
+    <carrier_config gid1="6134" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="61ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="62ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="69ff">
+        <string name="vvm_type_string">vvm_type_disable</string>
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="6D38">
+        <boolean name="carrier_name_override_bool" value="false"/>
+        <string name="carrier_name_string"></string>
+    </carrier_config>
+    <carrier_config gid1="6D38" carrierid="metropcs">
+        <string name="carrier_vvm_package_name_string">com.metropcs.service.vvm</string>
+        <boolean name="carrier_default_data_roaming_enabled_bool" value="true"/>
+    </carrier_config>
+    <carrier_config gid1="6D38" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="ddff">
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="ddff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="deff">
+        <boolean name="carrier_vt_available_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="2"/>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+        <boolean name="moto_wfc_tmo_specific_req_bool" value="false"/>
+        <boolean name="enable_omacp_ui_bool" value="false" />
+        <int-array name="omacp_auth_types_array" num="1">
+            <item value="0" />
+        </int-array>
+    </carrier_config>
+    <carrier_config gid1="deff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+</carrier_config_list>

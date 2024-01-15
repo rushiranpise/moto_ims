@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config spn="">
+        <boolean name="supportMMSOverWifi" value="false"/>
+        <string-array name="read_only_apn_types_string_array" num="0" >
+        </string-array>
+    </carrier_config>
+    <carrier_config spn="vodafone uk">
+        <boolean name="supportMMSOverWifi" value="false"/>
+        <string-array name="read_only_apn_types_string_array" num="0" >
+        </string-array>
+    </carrier_config>
+</carrier_config_list>

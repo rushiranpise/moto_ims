@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="emc_connection_limit_int_sim" value="20000"/>
+    </carrier_config>
+    <carrier_config gid1="D2">
+        <boolean name="carrier_volte_available_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="false"/>
+        <boolean name="carrier_vt_available_bool" value="false"/>
+    </carrier_config>
+</carrier_config_list>

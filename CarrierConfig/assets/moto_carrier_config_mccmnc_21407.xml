@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="maxSubjectLength" value="80"/>
+        <boolean name="enableMMSReadReports" value="false"/>
+        <boolean name="enableMMSDeliveryReports" value="false"/>
+        <boolean name="smsUsesSimpleCharactersOnly" value="true"/>
+        <boolean name="enableSMSDeliveryReports" value="false"/>
+        <int name="maxMessageTextSize" value="-1"/>
+        <string-array name="carrier_metered_apn_types_strings" num="3">
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="supl"/>
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="3">
+            <item value="default"/>
+            <item value="dun"/>
+            <item value="supl"/>
+        </string-array>
+        <int name="maxImageHeight" value="480"/>
+        <int name="maxImageWidth" value="640"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true" />
+    </carrier_config>
+</carrier_config_list>

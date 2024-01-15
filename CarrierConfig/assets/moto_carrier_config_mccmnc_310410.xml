@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="recipientLimit" value="20"/>
+        <boolean name="smsDeliveryReportSettingOnByDefault" value="true"/>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+        <boolean name="carrier_rtt_supported" value="true"/>
+        <boolean name="carrier_rtt_auto_upgrade" value="false"/>
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <boolean name="rtt_always_enabled_bool" value="true"/>
+        <boolean name="editable_wfc_mode_bool" value="false"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="hide_ims_apn_bool" value="true"/>
+        <string-array name="carrier_metered_apn_types_strings" num="2">
+            <item value="default"/>
+            <item value="dun"/>
+        </string-array>
+        <string-array name="carrier_metered_roaming_apn_types_strings" num="2">
+            <item value="default"/>
+            <item value="dun"/>
+        </string-array>
+        <boolean name="support_video_conference_call_bool" value="true"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+        <string name="config_ims_package_override_string"></string>
+        <string name="gps.supl_mode">1</string>
+        <string name="gps.supl_host">NONE</string>
+        <string name="gps.supl_ver">0x20000</string>
+        <string name="gps.lpp_profile">11</string>
+        <string name="gps.es_extension_sec">0</string>
+        <string name="carrier_name_string">AT&amp;T</string>
+        <boolean name="display_hd_audio_property_bool" value="true"/>
+        <boolean name="moto_att_rtt_enabled_bool" value="true"/>
+        <boolean name="moto_wfc_att_specific_req_bool" value="true"/>
+        <boolean name="moto_vt_common_req_bool" value="true"/>
+        <boolean name="moto_vt_att_specific_req_bool" value="true"/>
+        <boolean name="moto_uce_video_feature_enabled_bool" value="true"/>
+        <boolean name="moto_att_stir_shaken_feature_bool" value="true"/>
+        <int name="moto_signal_strength_max_level_int" value="5"/>
+        <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true"/>
+        <string name="wcdma_default_signal_strength_measurement_string">rscp</string>
+        <int-array name="gsm_rssi_thresholds_int_array" num="5">
+            <item value="-999"/>
+            <item value="-103"/>
+            <item value="-97"/>
+            <item value="-88"/>
+            <item value="-79"/>
+        </int-array>
+        <int-array name="moto_wcdma_ecno_thresholds_int_array" num="5">
+            <item value="-99"/>
+            <item value="-15"/>
+            <item value="-13"/>
+            <item value="-11"/>
+            <item value="-9"/>
+        </int-array>
+        <int-array name="wcdma_rscp_thresholds_int_array" num="5">
+            <item value="-999"/>
+            <item value="-105"/>
+            <item value="-99"/>
+            <item value="-89"/>
+            <item value="-79"/>
+        </int-array>
+        <int-array name="lte_rsrp_thresholds_int_array" num="5">
+            <item value="-999"/>
+            <item value="-118"/>
+            <item value="-112"/>
+            <item value="-106"/>
+            <item value="-100"/>
+        </int-array>
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+    </carrier_config>
+    <carrier_config carrierid="att">
+        <boolean name="moto_app_directed_sms_enabled" value="true"/>
+        <boolean name="moto_app_directed_wap_push_enabled" value="true"/>
+        <string-array name="moto_mt_sms_filter_list" num="1">
+            <item value="byspecialchecking;CBSLoader;null;null;IqAgentSmsUtils;isIqAgentSms"/>
+        </string-array>
+        <string-array name="new_apn_default_value_fields_string_array" num="1">
+            <item value="type:default"/>
+            <item value="protocol:IPV4V6"/>
+            <item value="roaming_protocol:IPV4V6"/>
+        </string-array>
+    </carrier_config>
+    <carrier_config gid1="ddff">
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+        <int name="wfc_spn_format_idx_int" value="1"/>
+        <boolean name="moto_wfc_att_specific_req_bool" value="false"/>
+    </carrier_config>
+    <carrier_config gid1="ddff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="deff">
+        <boolean name="carrier_vt_available_bool" value="false"/>
+        <boolean name="carrier_name_override_bool" value="true"/>
+        <string name="carrier_name_string">EMPTY</string>
+        <string-array name="moto_operator_name_replace_string_array" num="1">
+            <item value="ANY|EMPTY"/>
+        </string-array>
+        <int name="wfc_spn_format_idx_int" value="1"/>
+        <boolean name="moto_wfc_att_specific_req_bool" value="true"/>
+        <boolean name="enable_omacp_ui_bool" value="false" />
+        <int-array name="omacp_auth_types_array" num="1">
+            <item value="0" />
+        </int-array>
+    </carrier_config>
+    <carrier_config gid1="deff" propcheck="ro.com.google.gmsversion=NOT_EMPTY">
+        <string name="config_ims_package_override_string">com.google.android.ims</string>
+    </carrier_config>
+    <carrier_config gid1="2ac9">
+        <boolean name="moto_wfc_att_specific_req_bool" value="true"/>
+    </carrier_config>
+</carrier_config_list>

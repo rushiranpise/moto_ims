@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <string-array name="non_roaming_operator_string_array" num="1">
+            <item value="302"/>
+        </string-array>
+        <boolean name="carrier_volte_available_bool" value="true"/>
+        <boolean name="carrier_vt_available_bool" value="true"/>
+        <boolean name="carrier_volte_tty_supported_bool" value="false"/>
+        <boolean name="carrier_wfc_ims_available_bool" value="true"/>
+        <int name="carrier_default_wfc_ims_mode_int" value="1"/>
+        <boolean name="rtt_supported_bool" value="true" />
+        <boolean name="carrier_rtt_supported" value="true" />
+        <boolean name="carrier_rtt_auto_upgrade" value="false" />
+        <boolean name="carrier_rtt_upgrade_supported" value="true"/>
+        <boolean name="carrier_rtt_downgrade_supported" value="false"/>
+        <boolean name="carrier_rtt_supported_on_vtcalls" value="false"/>
+        <string name="wfc_emergency_address_carrier_app_string">com.motorola.coresettingsext/.BellWfcUpdateAddress</string>
+        <boolean name="carrier_supports_ss_over_ut_bool" value="true"/>
+        <boolean name="use_vowifi_call_after_call_fail_sim" value="true" />
+    </carrier_config>
+</carrier_config_list>

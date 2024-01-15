@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<carrier_config_list>
+    <carrier_config>
+        <int name="recipientLimit" value="20"/>
+        <boolean name="mmsRoamingAutoRetrieveByDefault" value="true"/>
+        <boolean name="hide_enhanced_4g_lte_bool" value="true"/>
+        <boolean name="editable_enhanced_4g_lte_bool" value="false"/>
+        <boolean name="moto_att_rtt_enabled_bool" value="true"/>
+        <boolean name="moto_wfc_att_specific_req_bool" value="true"/>
+        <boolean name="moto_vt_common_req_bool" value="true"/>
+        <boolean name="moto_vt_att_specific_req_bool" value="true"/>
+        <boolean name="moto_uce_video_feature_enabled_bool" value="true"/>
+        <boolean name="moto_att_stir_shaken_feature_bool" value="true"/>
+        <string name="gps.supl_mode">1</string>
+        <string name="gps.supl_host">NONE</string>
+        <string name="gps.supl_ver">0x20000</string>
+        <string name="gps.lpp_profile">11</string>
+        <string name="gps.es_extension_sec">0</string>
+    </carrier_config>
+</carrier_config_list>
